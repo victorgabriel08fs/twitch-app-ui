@@ -2,6 +2,7 @@ import React from 'react';
 import { Text } from 'react-native';
 
 import streamT from '../../images/stream.jpg';
+import avatar from '../../images/avatar.jpg';
 
 import {
   List,
@@ -27,14 +28,14 @@ const StreamList: React.FC = () => {
       <StreamColumn>
         <StreamRow>
           <StreamHeader>
-            <StreamAvatar />
-            <StreamUsername numberOfLines={1}>vitao_da_coca_cola</StreamUsername>
+            <StreamAvatar source={avatar}/>
+            <StreamUsername numberOfLines={1}>Gaules</StreamUsername>
           </StreamHeader>
           <StreamDescription numberOfLines={1}>
             A many games...
           </StreamDescription>
           <StreamCategory numberOfLines={1}>
-            Games
+            Counter-Strike:Global Offensive
           </StreamCategory>
         </StreamRow>
 

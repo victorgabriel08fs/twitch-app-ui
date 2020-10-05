@@ -20,7 +20,9 @@ export const AvatarDiv = styled.TouchableOpacity`
 
 export const Avatar = styled.ImageBackground`
     width: 32px;
-    height:32px
+    height:32px;
+
+    border-radius:16px;
 `;
 
 export const OnlineStatus = styled.View`

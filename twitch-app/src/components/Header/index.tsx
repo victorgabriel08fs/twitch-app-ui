@@ -15,6 +15,13 @@ const Header: React.FC = () => {
       </AvatarDiv>
       <RightSide>
         <Button>
+          <Feather
+            name="video"
+            size={26}
+            color={colors.black}
+          />
+        </Button>
+        <Button>
           <MaterialIcons
             name="notifications-none"
             size={26}

@@ -27,11 +27,10 @@ export const StreamHeader = styled.View`
     flex-direction:row;
     align-items:center;
 `;
-export const StreamAvatar = styled.View`
+export const StreamAvatar = styled.Image`
     width:20px;
     height:20px;
     border-radius:10px;
-    background:${colors.tag};
 `;
 
 export const StreamUsername = styled.Text`
